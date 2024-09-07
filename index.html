@@ -1,1 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: rgb(17, 17, 17);
+            color: white;
+            overflow: auto; /* Allow scrolling */
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(3, 1fr);
+            gap: 10px;
+            width: 100vw;
+            height: 100vh;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+        .item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .item img {
+            max-width: 100%;
+            max-height: 100%;
+        }
+        .label {
+            margin-top: 5px;
+            text-align: center;
+        }
+    </style>
+    <title>City Maps</title>
+</head>
+<body>
+    <div class="container">
+		<div class="item">
+            <img src="Fort_Atkinson_Wisconsin_isochrones.png" alt="Hood River, Oregon">
+            <div class="label">Fort Atkinson, Wisconsin</div>
+        </div>
+        <div class="item">
+            <img src="Hood_River_Oregon_isochrones.png" alt="Hood River, Oregon">
+            <div class="label">Hood River, Oregon</div>
+        </div>
+        <div class="item">
+            <img src="Kaufman_Texas_isochrones.png" alt="Kaufman, Texas">
+            <div class="label">Kaufman, Texas</div>
+        </div>
+        <div class="item">
+            <img src="Liberty_Missouri_isochrones.png" alt="Liberty, Missouri">
+            <div class="label">Liberty, Missouri</div>
+        </div>
+        <div class="item">
+            <img src="Mason_City_Iowa_isochrones.png" alt="Mason City, Iowa">
+            <div class="label">Mason City, Iowa</div>
+        </div>
+        <div class="item">
+            <img src="Westfield_Indiana_isochrones.png" alt="Westfield, Indiana">
+            <div class="label">Westfield, Indiana</div>
+        </div>
+        <div class="item">
+            <img src="Peachtree_City_Georgia_isochrones.png" alt="Peachtree City, Georgia">
+            <div class="label">Peachtree City, Georgia</div>
+        </div>
+        <div class="item">
+            <img src="Bainbridge_Township_Ohio_isochrones.png" alt="Bainbridge Township, Ohio">
+            <div class="label">Bainbridge Township, Ohio</div>
+        </div>
+        <div class="item">
+            <img src="Lagrange_Georgia_isochrones.png" alt="Lagrange, Georgia">
+            <div class="label">Lagrange, Georgia</div>
+        </div>
+        <div class="item">
+            <img src="Lenoir_North_Carolina_isochrones.png" alt="Lenoir, North Carolina">
+            <div class="label">Lenoir, North Carolina</div>
+        </div>
+        <div class="item">
+            <img src="Redwood_City_California_isochrones.png" alt="Redwood City, California">
+            <div class="label">Redwood City, California</div>
+        </div>
+    </div>
+</body>
+</html>
 
